@@ -1,53 +1,17 @@
 # codewars-challenges
 
-https://www.codewars.com/kata/one-line-task-diamond-creator-pro
+https://www.codewars.com/kata/sort-and-transform/javascript
 
-**Relations:** 
+Given an array of numbers, return a string made up of four parts:
 
-The following challenge is partially related to two already existing Kata's. But is differnt in the sense that neither approach will work here and this is a more performance version as well. Links :
+a) a four character 'word', made up of the characters derived from the first two and last two numbers in the array. order should be as read left to right (first, second, second last, last),
 
-number1 , number2. OK last one maybe not.
+b) the same as above, post sorting the array into ascending order,
 
-**Challenge:** 
-You are given an integer n as input. Your job is to create a diamond that is 2x the given number n.
+c) the same as above, post sorting the array into descending order,
 
-**Input:**
-Input is integer n and n > 2 ≤ 3000.
+d) the same as above, post converting the array into ASCII characters and sorting alphabetically.
 
-**Output:** 
-Output will be a string and it will be in form of a diamond consisting of + with an addition line at the start showing n using +
+The four parts should form a single string, each part separated by a hyphen: '-'
 
-**Examples:**
-D(3) :
-
-+++
-  +
- +++
-+++++
-+++++
- +++
-  +
-
-D(5) :
-
-+++++
-    +
-   +++
-  +++++
- +++++++
-+++++++++
-+++++++++
- +++++++
-  +++++
-   +++
-    +
-**Restrictions** :
-This is code-golf so there is a limit.
-
-Javascript solutions are limited to less than 111 characters.
-
-Python solution are limited to less than 89 characters
-
-Ruby solution are limited to less than 82 characters
-
-All limits are exlusive
+example format of solution: 'asdf-tyui-ujng-wedg'
